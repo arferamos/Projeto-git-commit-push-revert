@@ -1,13 +1,13 @@
-# 🚀 Projeto DevOps Cloud: Implementação de Repositórios Git com AWS CodeCommit
+# Projeto Implementação de Repositórios Git com AWS CodeCommit
 
-## 📌 Introdução  
+## Introdução  
 A jornada para a nuvem não envolve apenas migração de sistemas, mas também modernização de práticas de desenvolvimento e operações. Neste projeto, inspirado em um **cenário real de SaaS (Software as a Service)**, implementei uma prova de conceito (PoC) utilizando **AWS CodeCommit** para armazenamento e versionamento de códigos de **aplicação** e **infraestrutura**.  
 
 O objetivo foi validar os processos de **commit, push e revert** em um ambiente que integra desenvolvedores e engenheiros DevOps, garantindo rastreabilidade, governança e escalabilidade.  
 
 ---
 
-## ☁️ Provedor Cloud e Tecnologias Utilizadas  
+## Provedor Cloud e Tecnologias Utilizadas  
 
 **Provedor Cloud:**  
 - AWS (Amazon Web Services)  
@@ -23,7 +23,7 @@ O objetivo foi validar os processos de **commit, push e revert** em um ambiente 
 
 ---
 
-## 🏗️ Arquitetura da Solução  
+## Arquitetura da Solução  
 
 A solução foi estruturada em dois repositórios distintos dentro do **AWS CodeCommit**:  
 - **human-gov-application** → armazenamento do código da aplicação (Python).  
@@ -31,7 +31,7 @@ A solução foi estruturada em dois repositórios distintos dentro do **AWS Code
 
 Esse desenho permitiu separar responsabilidades, garantindo governança e clareza entre times de **desenvolvimento** e **engenharia DevOps**.  
 
-📊 **Fluxo implementado:**  
+**Fluxo implementado:**  
 1. Desenvolvedor realiza **commit** da mudança.  
 2. Alteração é enviada para o repositório via **push**.  
 3. Caso necessário, a mudança pode ser revertida (**revert**).  
@@ -41,7 +41,7 @@ Esse desenho permitiu separar responsabilidades, garantindo governança e clarez
 
 ---
 
-## ⚙️ Práticas DevOps Aplicadas  
+## Práticas DevOps Aplicadas  
 
 - **Integração entre Dev e Ops:** separação clara de aplicação e infraestrutura.  
 - **Versionamento padronizado:** rastreabilidade de todas as alterações.  
@@ -50,7 +50,7 @@ Esse desenho permitiu separar responsabilidades, garantindo governança e clarez
 
 ---
 
-## ✅ Resultados da Prova de Conceito  
+## Resultados da Prova de Conceito  
 
 - Validação de processos críticos do Git (**commit, push e revert**) em ambiente corporativo.  
 - Maior segurança no versionamento de aplicações SaaS.  
@@ -59,7 +59,7 @@ Esse desenho permitiu separar responsabilidades, garantindo governança e clarez
 
 ---
 
-## 🔮 Próximos Passos  
+## Próximos Passos  
 
 Como evolução deste projeto, destaco possíveis melhorias:  
 - Integração com **AWS CodePipeline e CodeBuild** para automação de deploy.  
@@ -69,7 +69,7 @@ Como evolução deste projeto, destaco possíveis melhorias:
 
 ---
 
-## 💡 Conclusão  
+## Conclusão  
 
 Esse projeto demonstra como uma arquitetura simples, porém bem planejada, pode servir como base para **colaboração entre times, escalabilidade e automação de processos**.  
 
@@ -77,4 +77,4 @@ Mais do que uma PoC, foi um exercício prático de **engenharia DevOps em nuvem*
 
 ---
 
-✍️ *Publicado por Arlindo Ramos — Arquiteto de Infraestrutura de TI & Cloud*  
+*Publicado por Arlindo Ramos — Arquiteto de Infraestrutura de TI & Cloud | MultiCloud e DevOps*  
