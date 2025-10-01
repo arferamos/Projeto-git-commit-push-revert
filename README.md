@@ -26,18 +26,21 @@ O objetivo foi validar os processos de **commit, push e revert** em um ambiente 
 ## Arquitetura da Solução  
 
 A solução foi estruturada em dois repositórios distintos dentro do **AWS CodeCommit**:  
+ <img width="1920" height="1080" alt="PT_PORTFOLIO_V2_DEVOPS - Capa" src="https://github.com/user-attachments/assets/f1d11c3b-b82a-4b82-abb3-ed94a83c167b" />
+ 
 - **human-gov-application** → armazenamento do código da aplicação (Python).  
-- **human-gov-infrastructure** → armazenamento da infraestrutura (Kubernetes, Terraform, Docker, Ansible).  
+- **human-gov-infrastructure** → armazenamento da infraestrutura (Kubernetes, Terraform, Docker, Ansible).
 
-Esse desenho permitiu separar responsabilidades, garantindo governança e clareza entre times de **desenvolvimento** e **engenharia DevOps**.  
-
+ 
 **Fluxo implementado:**  
 1. Desenvolvedor realiza **commit** da mudança.  
 2. Alteração é enviada para o repositório via **push**.  
 3. Caso necessário, a mudança pode ser revertida (**revert**).  
-4. O histórico fica versionado e rastreável, permitindo colaboração segura.  
+4. O histórico fica versionado e rastreável, permitindo colaboração segura.
+Essa solução permitiu separar responsabilidades, garantindo governança e clareza entre times de **desenvolvimento** e **engenharia DevOps**
 
-![Arquitetura da Solução](<coloque_aqui_o_link_da_imagem>)  
+<img width="1920" height="1080" alt="PT_PORTFOLIO_V2_DEVOPS - MODULE 2_ARCHITECTURE" src="https://github.com/user-attachments/assets/98f700e6-be94-4130-bbaf-ee4f9e20af51" />
+
 
 ---
 
